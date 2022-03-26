@@ -4,10 +4,10 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        File file = new File("src/text.txt");
+        File file = new File("src/text.txt"); //создали файл
         System.out.println(file.exists());
         file.createNewFile();
-        file.renameTo(new File("src/text2.txt"));
+        file.renameTo(new File("src/text2.txt")); //переименовали файл
 
 
         byte[] bytes = {123, 15, 15, 17, 125};
