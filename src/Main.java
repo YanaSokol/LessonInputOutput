@@ -10,7 +10,7 @@ public class Main {
         file.renameTo(new File("src/text2.txt")); //переименовали файл
 
 
-        byte[] bytes = {123, 15, 15, 17, 125};
+        byte[] bytes = {123, 15, 15, 17, 125}; //работа с макросами
 
 
         ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(bytes); // пригодится, если буду работать с графикой или с файловой системой напрямую
